@@ -1,0 +1,138 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 100vh;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Sección de Contactos */
+  .contacts-section {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding: 1rem;
+  }
+  
+  .user-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-info {
+    flex-grow: 1;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .user-status-text {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .new-chat-button {
+    padding: 0.8rem 1rem;
+    background-color: #c6a5eb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+  
+  .new-chat-button:hover {
+    background-color: #9b7cc1;
+  }
+  
+  .contacts-list {
+    list-style: none;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contact-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .contact-name {
+    font-weight: bold;
+  }
+  
+  .last-message {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
+  /* Sección Principal */
+  .main-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .icon-placeholder img {
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+  }
